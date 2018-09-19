@@ -20,10 +20,6 @@ for (let i = 0; i < 10; i++) {
 
 
 ///// Problem 2 - More fun...
-function resolvePromise(resolve, reject) { 
-    
-}
-
 function countBig(bignum) {
     // Add code here that returns a Promise that will resolve after it has counted to bignum
 	return new Promise((resolve, reject) => {
